@@ -1,0 +1,19 @@
+Test Device Hostname : bxcs-r-btbbmr429021
+Test Device Mgmt IP (Lo10) : 172.108.23.77 255.255.255.255
+Test Device VLAN 1 : 10.43.192.166 255.255.255.248
+
+Test Script:
+==============================
+ping 10.160.0.201 so vlan1
+or
+ping 10.160.64.198 so vlan1
+or
+ping 10.160.32.196 so vlan1
+or
+ping 193.113.139.146 so vlan1
+
+
+TEST 10.10.160.4
+TEST 10.10.160.8
+TEST 10.10.160.12
+TEST 10.10.160.16

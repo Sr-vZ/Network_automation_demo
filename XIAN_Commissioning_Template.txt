@@ -1,0 +1,17 @@
+! Port can be gi0/0 gi0/1 LAB defaults to this in practice we have FastEthernet 0/0 - 0/4
+int gi0/0 
+no sh
+! ONEA or BTWD to be supplied by FE / SharePoint
+description ** < ONEA 57334740 > **
+end
+! Testing connectivity 
+
+!ping 10.160.0.201 so vlan1
+!ping 10.160.64.198 so vlan1
+!ping 10.160.32.196 so vlan1
+!ping 193.113.139.146 so vlan1
+
+ping 10.10.160.4 so vlan1
+ping 10.10.160.8 so vlan1
+ping 10.10.160.12 so vlan1
+ping 10.10.160.16 so vlan1
